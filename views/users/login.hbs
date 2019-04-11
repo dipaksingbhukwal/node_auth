@@ -1,0 +1,16 @@
+<div class="container">
+    {{#if message}}
+    <h3>{{message}}</h3>
+    {{/if}}
+    <div class="box">
+        <form action="/users/login" method="post">
+            <input type="text" class="email" name="email" placeholder="E-mail" required="">
+            <input type="password" class="password" name="password" placeholder="Password" required="">
+            <div class="tp">
+                <input type="submit" class="btn" value="LOGIN NOW"><br>
+                <a href="/users/register"><button id="btn2">Register</button></a>
+            </div>
+
+        </form>
+    </div>
+</div>

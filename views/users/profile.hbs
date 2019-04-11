@@ -1,0 +1,29 @@
+<div class="container">
+    <table class="table-fill box">
+        <h3>Welcome, {{user.username}}</h3>
+        <tr>
+            <td>Username</td>
+            <td>{{user.username}}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{user.email}}</td>
+        </tr>
+        <tr>
+            <td>Contact No</td>
+            <td>{{user.telephone}}</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>{{user.email}}<br>
+                {{user.street}}<br>
+                {{user.city}}<br>
+                {{user.state}}<br>
+                {{user.country}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><a type="button" href="/users/logout">Logout</a></td>
+        </tr>
+    </table>
+</div>
