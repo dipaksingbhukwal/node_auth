@@ -10,20 +10,22 @@ MongoDB
 VS Code
 
 Packages:
-•	express – Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+â€¢	express â€“ Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
-•	mongoose - To provide modeling environment to create structured database in MongoDB.
+â€¢	mongoose - To provide modeling environment to create structured database in MongoDB.
 
-•	body-parse – Used it to parse incoming request body and use data from body in middleware before sending a response
+â€¢	body-parse â€“ Used it to parse incoming request body and use data from body in middleware before sending a response
 
-•	bcryptjs  - Used it to convert simple human readable password (received in  request body) into hash string which cannot be easily decrypted into simple form. 
+â€¢	bcryptjs  - Used it to convert simple human readable password (received in  request body) into hash string which cannot be easily decrypted into simple form. 
 
-•	express-session  - This package was important in order to keep the track of users in order to show specific content to specific user only. For this tutorial, this package does not show its power, but when applied to bigger application, which servers multiple users, it plays vital role separating sessions.
+â€¢	express-session  - This package was important in order to keep the track of users in order to show specific content to specific user only. For this tutorial, this package does not show its power, but when applied to bigger application, which servers multiple users, it plays vital role separating sessions.
 
-•	nodemon – To save time of restarting the server each time after changing code, used nodemon. It restarts server automatically, once any code change is saved.
+â€¢	nodemon â€“ To save time of restarting the server each time after changing code, used nodemon. It restarts server automatically, once any code change is saved.
 
-This was one of the ways to authenticate user (with sessions and cookies). User can be authenticated via token-based authentication, OAuth or JSAON Web Tokens, or using ‘Passport’ middleware.
+This was one of the ways to authenticate user (with sessions and cookies). User can be authenticated via token-based authentication, OAuth or JSAON Web Tokens, or using â€˜Passportâ€™ middleware.
+
 GitHub: https://github.com/dipaksingbhukwal/node_auth 
+
 Original article: Starting with Authentication (A tutorial with Node.js and MongoDB)
 
 Author: Daniel Deutsch
